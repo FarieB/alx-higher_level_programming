@@ -2,4 +2,4 @@
 number = 98
 
 # YOUR CODE GOES HERE
-print("{:d} Battery street".format(number))
+print(f"{number} Battery street")
