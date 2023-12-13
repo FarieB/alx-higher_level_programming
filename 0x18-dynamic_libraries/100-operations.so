@@ -1,0 +1,66 @@
+#include <stdio.h>
+
+/**
+* add - Adds two numbers
+* @a: First number
+* @b: Second number
+* Return: Sum of a and b
+*/
+int add(int a, int b)
+{
+return a + b;
+}
+
+/**
+* sub - Subtracts two numbers
+* @a: First number
+* @b: Second number
+* Return: Difference of a and b
+*/
+int sub(int a, int b)
+{
+return a - b;
+}
+
+/**
+* mul - Multiplies two numbers
+* @a: First number
+* @b: Second number
+* Return: Product of a and b
+*/
+int mul(int a, int b)
+{
+return a * b;
+}
+
+/**
+* div - Divides two numbers
+* @a: First number
+* @b: Second number
+* Return: Result of a divided by b
+*/
+int div(int a, int b)
+{
+if (b == 0)
+{
+printf("Error: Division by zero\n");
+return 0;
+}
+return a / b;
+}
+
+/**
+* mod - Computes the remainder of the division of two numbers
+* @a: First number
+* @b: Second number
+* Return: Remainder of the division of a by b
+*/
+int mod(int a, int b)
+{
+if (b == 0)
+{
+printf("Error: Division by zero\n");
+return 0;
+}
+return a % b;
+}
